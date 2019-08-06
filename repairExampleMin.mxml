@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- MXML version 1.0 -->
+<!-- Created by Fluxicon Disco (http://fluxicon.com/disco/ -->
+<!-- (c) 2012 Fluxicon Process Laboratories - http://fluxicon.com/ -->
+<WorkflowLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://is.tm.tue.nl/research/processmining/WorkflowLog.xsd">
+	<Source program="Fluxicon Disco"/>
+	<Process id="repairExampleMin.mxml.gz" description="Converted to MXML by Fluxicon Disco">
+		<ProcessInstance id="10">
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:09:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:09:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">3</Attribute>
+					<Attribute name="phoneType">T1</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:09:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">3</Attribute>
+					<Attribute name="phoneType">T1</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:15:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:35:00.000+09:00</Timestamp>
+				<Originator>SolverS1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:42:00.000+09:00</Timestamp>
+				<Originator>SolverS1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">false</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:42:00.000+09:00</Timestamp>
+				<Originator>Tester6</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">false</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:48:00.000+09:00</Timestamp>
+				<Originator>Tester6</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Restart Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:54:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Restart Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:54:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:54:00.000+09:00</Timestamp>
+				<Originator>SolverS2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:55:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:55:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T20:03:00.000+09:00</Timestamp>
+				<Originator>SolverS2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">2</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T20:03:00.000+09:00</Timestamp>
+				<Originator>Tester4</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">2</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T20:09:00.000+09:00</Timestamp>
+				<Originator>Tester4</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">2</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T20:14:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">2</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T20:14:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="12">
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T22:12:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T22:12:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">2</Attribute>
+					<Attribute name="phoneType">T3</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T22:12:00.000+09:00</Timestamp>
+				<Originator>Tester4</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">2</Attribute>
+					<Attribute name="phoneType">T3</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T22:22:00.000+09:00</Timestamp>
+				<Originator>Tester4</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T22:37:00.000+09:00</Timestamp>
+				<Originator>SolverS1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T22:44:00.000+09:00</Timestamp>
+				<Originator>SolverS1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">false</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T22:44:00.000+09:00</Timestamp>
+				<Originator>Tester1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">false</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T22:54:00.000+09:00</Timestamp>
+				<Originator>Tester1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Restart Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T23:02:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Restart Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T23:02:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T23:02:00.000+09:00</Timestamp>
+				<Originator>SolverS3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T23:10:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T23:10:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T23:19:00.000+09:00</Timestamp>
+				<Originator>SolverS3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">2</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T23:19:00.000+09:00</Timestamp>
+				<Originator>Tester3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">2</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T23:26:00.000+09:00</Timestamp>
+				<Originator>Tester3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">2</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T23:36:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">2</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T23:36:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="13">
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:35:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:35:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">7</Attribute>
+					<Attribute name="phoneType">T1</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:35:00.000+09:00</Timestamp>
+				<Originator>Tester6</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">7</Attribute>
+					<Attribute name="phoneType">T1</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:42:00.000+09:00</Timestamp>
+				<Originator>Tester6</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Complex)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T20:05:00.000+09:00</Timestamp>
+				<Originator>SolverC3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T20:25:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T20:25:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Complex)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T20:45:00.000+09:00</Timestamp>
+				<Originator>SolverC3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T20:45:00.000+09:00</Timestamp>
+				<Originator>Tester4</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T20:54:00.000+09:00</Timestamp>
+				<Originator>Tester4</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T21:01:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T21:01:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="15">
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T18:16:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T18:16:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">7</Attribute>
+					<Attribute name="phoneType">T3</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T18:16:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">7</Attribute>
+					<Attribute name="phoneType">T3</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T18:22:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Complex)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T18:29:00.000+09:00</Timestamp>
+				<Originator>SolverC3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T18:43:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T18:43:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Complex)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:16:00.000+09:00</Timestamp>
+				<Originator>SolverC3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:16:00.000+09:00</Timestamp>
+				<Originator>Tester1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:25:00.000+09:00</Timestamp>
+				<Originator>Tester1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T19:31:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T19:31:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="18">
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T14:36:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T14:36:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">5</Attribute>
+					<Attribute name="phoneType">T3</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T14:36:00.000+09:00</Timestamp>
+				<Originator>Tester6</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">5</Attribute>
+					<Attribute name="phoneType">T3</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T14:44:00.000+09:00</Timestamp>
+				<Originator>Tester6</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T14:56:00.000+09:00</Timestamp>
+				<Originator>SolverS1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T15:03:00.000+09:00</Timestamp>
+				<Originator>SolverS1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">false</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T15:03:00.000+09:00</Timestamp>
+				<Originator>Tester1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">false</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T15:13:00.000+09:00</Timestamp>
+				<Originator>Tester1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Restart Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T15:18:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Restart Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T15:18:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Complex)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T15:18:00.000+09:00</Timestamp>
+				<Originator>SolverC1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T15:24:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T15:24:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Complex)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T15:35:00.000+09:00</Timestamp>
+				<Originator>SolverC1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T15:35:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T15:41:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T15:51:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T15:51:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="26">
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-02T01:35:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-02T01:35:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">8</Attribute>
+					<Attribute name="phoneType">T2</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-02T01:35:00.000+09:00</Timestamp>
+				<Originator>Tester1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">8</Attribute>
+					<Attribute name="phoneType">T2</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-02T01:44:00.000+09:00</Timestamp>
+				<Originator>Tester1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Complex)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-02T02:14:00.000+09:00</Timestamp>
+				<Originator>SolverC1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-02T02:22:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-02T02:22:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Complex)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-02T02:30:00.000+09:00</Timestamp>
+				<Originator>SolverC1</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-02T02:30:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-02T02:38:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-02T02:48:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">0</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-02T02:48:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="3">
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T21:09:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Register</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T21:09:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">2</Attribute>
+					<Attribute name="phoneType">T2</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T21:09:00.000+09:00</Timestamp>
+				<Originator>Tester3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectType">2</Attribute>
+					<Attribute name="phoneType">T2</Attribute>
+				</Data>
+				<WorkflowModelElement>Analyze Defect</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T21:19:00.000+09:00</Timestamp>
+				<Originator>Tester3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T21:34:00.000+09:00</Timestamp>
+				<Originator>SolverS3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T21:43:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Inform User</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T21:43:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data/>
+				<WorkflowModelElement>Repair (Simple)</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T21:46:00.000+09:00</Timestamp>
+				<Originator>SolverS3</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T21:46:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Test Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T21:52:00.000+09:00</Timestamp>
+				<Originator>Tester2</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>start</EventType>
+				<Timestamp>1970-01-01T21:57:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<Attribute name="defectFixed">true</Attribute>
+					<Attribute name="numberRepairs">1</Attribute>
+				</Data>
+				<WorkflowModelElement>Archive Repair</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<Timestamp>1970-01-01T21:57:00.000+09:00</Timestamp>
+				<Originator>System</Originator>
+			</AuditTrailEntry>
+		</ProcessInstance>
+	</Process>
+</WorkflowLog>

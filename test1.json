@@ -1,0 +1,37 @@
+{
+    "identifier": {
+      "consumers": 2,
+      "count": 20
+    },
+    "lost-and-found": {
+      "consumers": 1,
+      "count": 1,
+      "inputQueue": ["identifier"],
+      "inputThroughput": [50]
+    },
+    "monitor": {
+      "consumers": 1,
+      "count": 0,
+      "inputQueue": ["identifier"],
+      "inputThroughput": [50]
+    },
+    "meta-enricher": {
+      "consumers": 4,
+      "count": 9900,
+      "inputQueue": ["identifier"],
+      "inputThroughput": [50]
+    },
+    "geo-enricher": {
+      "consumers": 2,
+      "count": 1,
+      "inputQueue": ["meta-enricher","identifier"],
+      "inputThroughput": [50,25]
+    },
+    
+        "elasticsearch-writer": {
+      "consumers": 0,
+      "count": 9900,
+      "inputQueue": ["geo-enricher"],
+      "inputThroughput": [50]
+    }
+  }
